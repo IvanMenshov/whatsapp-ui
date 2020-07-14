@@ -81,6 +81,10 @@
     flex: 1;
 }
 
+.chat-box .img_chat {
+    width: 280px;
+}
+
 .chat-r {
     display: flex;
 }
@@ -98,7 +102,7 @@
 }
 
 .chat-box .mess {
-    max-width: 300px;
+    max-width: 370px;
     background: #f7fcf6;
     padding: 10px;
     border-radius: 10px;
@@ -202,4 +206,32 @@
     width: 35px;
     height: 35px;
     margin-left: 5px;
+}
+
+.audio {
+    width: 180px; 
+    border-radius: 10px;
+}
+
+.image-2 {
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 300px;
+    bottom: 50px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.left-text {
+    float: left;
+    margin: 7px 7px 7px 0;
 }
